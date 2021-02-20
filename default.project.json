@@ -1,0 +1,54 @@
+{
+	"name": "minecraft-ecs",
+	"tree": {
+		"$className": "DataModel",
+		
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+
+			"client": {
+				"$path": "client"
+			},
+
+			"shared": {
+				"$path": "shared"
+			},
+
+			"packages": {
+				"$path": "packages"
+			}
+		},
+
+		"ServerStorage": {
+			"$className": "ServerStorage",
+
+			"server": {
+				"$path": "server"
+			}
+		},
+
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+
+			"loader": {
+				"$path": "loader.server.lua"
+			}
+		},
+
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+
+			"$properties": {
+				"EnableMouseLockOption": false
+			},
+
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				
+				"loader": {
+					"$path": "loader.client.lua"
+				}
+			}
+		}
+	}
+}

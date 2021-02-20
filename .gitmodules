@@ -1,0 +1,9 @@
+[submodule "packages/Llama"]
+	path = packages/Llama
+	url = https://github.com/F-RDY/llama
+[submodule "packages/t"]
+	path = packages/t
+	url = https://github.com/osyrisrblx/t
+[submodule "packages/Net"]
+	path = packages/Net
+	url = https://github.com/roblox-aurora/rbx-net
